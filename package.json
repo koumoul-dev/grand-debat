@@ -1,0 +1,24 @@
+{
+  "name": "grand-debat",
+  "version": "1.0.0",
+  "description": "Scripts de reformatage des contributions issues du grand débat",
+  "main": "parse.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koumoul-dev/grand-debat.git"
+  },
+  "author": "Nicolas Bonnel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/koumoul-dev/grand-debat/issues"
+  },
+  "homepage": "https://github.com/koumoul-dev/grand-debat#readme",
+  "dependencies": {
+    "fs-extra": "^7.0.1",
+    "ndjson": "^1.5.0",
+    "stream-to-promise": "^2.2.0"
+  }
+}
